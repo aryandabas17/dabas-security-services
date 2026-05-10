@@ -1,0 +1,25 @@
+{
+  "name": "dabas_security_services",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html admin.html login.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.16.4",
+    "@parcel/transformer-jsonld": "^2.16.4",
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "jquery": "^4.0.0",
+    "popper.js": "^1.16.1",
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^3.0.0"
+  }
+}
