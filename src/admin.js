@@ -1,5 +1,6 @@
-/* AUTH CHECK */
+/* AUTH DISABLED TEMPORARILY */
 
+/*
 const isLoggedIn = localStorage.getItem(
   'adminLoggedIn'
 );
@@ -9,6 +10,7 @@ if (!isLoggedIn) {
   window.location.href = '/';
 
 }
+*/
 
 /* FETCH INQUIRIES */
 
@@ -92,7 +94,7 @@ logoutBtn.addEventListener('click', () => {
     'adminLoggedIn'
   );
 
-  window.location.href = '/';
+  // window.location.href = '/';
 
 });
 
