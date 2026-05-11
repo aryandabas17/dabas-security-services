@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html admin.html login.html",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/index.html src/admin/index.html"
   },
   "keywords": [],
   "author": "",
