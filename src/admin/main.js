@@ -17,7 +17,7 @@ async function fetchInquiries() {
   try {
 
     const response = await fetch(
-      'http://localhost:5000/api/inquiries'
+      'https://dabas-security-services.onrender.com'
     );
 
     const inquiries = await response.json();
