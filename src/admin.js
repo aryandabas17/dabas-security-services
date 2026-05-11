@@ -6,7 +6,7 @@ const isLoggedIn = localStorage.getItem(
 
 if (!isLoggedIn) {
 
-  window.location.href = '/login.html';
+  window.location.href = '/';
 
 }
 
@@ -17,7 +17,7 @@ async function fetchInquiries() {
   try {
 
     const response = await fetch(
-      'https://dabas-security-services.onrender.com'
+      'https://dabas-security-services.onrender.com/api/inquiries'
     );
 
     const inquiries = await response.json();
@@ -92,7 +92,7 @@ logoutBtn.addEventListener('click', () => {
     'adminLoggedIn'
   );
 
-  window.location.href = '/login.html';
+  window.location.href = '/';
 
 });
 
